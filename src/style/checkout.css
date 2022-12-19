@@ -1,0 +1,45 @@
+.heading {
+    color: #d87d4a;
+}
+.summary {
+    display: flex !important;
+    flex-wrap: wrap !important;
+
+}
+.summary img {
+    width: 25%;
+    margin-right: 2%;
+}
+.summary p {
+    word-break: break-word;
+    overflow: hidden;
+    width: 73%;
+    max-height: 50px !important;
+    margin: 0 !important;
+}
+.summary span {
+    width: 25% !important;
+    text-align: right;
+    font-size: 22px;
+    display: flex;
+}
+.summary strong {
+    font-size: 22px;
+}
+.sp {
+    height: fit-content !important;
+}
+.success {
+    position: absolute;
+    top: 0px;
+    z-index: 999999999;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.801);
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100%;
+}
+.success div {
+    background-color: white;
+}

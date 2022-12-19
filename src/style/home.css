@@ -1,0 +1,245 @@
+* {
+    font-family: "Manrope",sans-serif;
+}
+body {
+    overflow-x: hidden;
+}
+.hamb {
+    height: 50px;
+    line-height: 6px;
+    font-size: 34px;
+    display: flex;
+    align-content: center;
+    max-width: 25px !important;
+}
+.ham-list {
+    position: absolute;
+    top: 80px;
+    left: 10%;
+    width: 80%;
+    border-radius: 10px;
+    z-index: 100;
+}
+.ham-list img {
+    width: 25px !important;
+}
+.c {
+    width: 100% !important;
+    height: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    animation-fill-mode: both;
+    animation-name: rotate;
+    animation-duration: 0.4s;
+    animation-timing-function: ease-out;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(135deg);
+    }
+}
+body::-webkit-scrollbar {
+    width: 1.1em;
+}
+body::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+body::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: #272727;
+    border: 4px solid white;
+}
+.last{
+    background-image: url("../sebastian-banasiewcz-oXXc-s5nNy8-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: right -45px;
+    background-attachment: fixed;
+    background-size: auto 750px;
+    background-color: #0c0c0c;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.last div {
+    letter-spacing: 1.7px;
+    word-spacing: 2px;
+}
+.last div a ,.szx, .b{
+    background-color: #d87d4a;
+}
+.last div a:hover {
+    background-color: #ffac7c;
+}
+header {
+    position: relative;
+    z-index: 98;
+    top: 0;
+}
+.h:hover ,.count, .close{
+    color: #d87d4a !important;
+}
+.logo {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+}
+.s-c {
+    width: 400px;
+    left: 60%;
+    z-index: 100;
+    top: 80px;
+}
+.items::-webkit-scrollbar {
+    width: 1em;
+}
+.items::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+.items::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: #272727;
+    border: 4px solid white;
+}
+.hide {
+    width: 100%;
+    position: absolute;
+    height: 2500px;
+    background-color: rgba(0, 0, 0, 0.750);
+    z-index: 99;
+    left: 0;
+    top: 61px;
+}
+.items {
+    max-height: 300px;
+    overflow-y: auto;
+}
+.list {
+    margin-top: 100px !important;
+}
+.list div div{
+    background-color: rgb(241, 241, 241);
+}
+.shop::after {
+    content: ">";
+    color: #d87d4a;
+    position: absolute;
+    margin: -6px 10px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.szx img , .szx article{
+    position: relative;
+    z-index: 3;
+}
+.szx{
+    position: relative;
+    overflow: hidden !important;
+}
+.szx::before {
+    content: "";
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    border: 0.5px solid rgb(187, 180, 174);
+    background-color: transparent;
+    position: absolute;
+    z-index: 2;
+}
+.szx::after {
+    content: "";
+    border-radius: 50%;
+    width: 580px;
+    height: 580px;
+    border: 0.5px solid rgb(187, 180, 174);
+    background-color: transparent;
+    position: absolute;
+    z-index: 2;
+}
+.szx span {
+    border-radius: 50%;
+    width: 1150px;
+    height: 1150px;
+    border: 0.5px solid rgb(187, 180, 174);
+    background-color: transparent;
+    position: absolute;
+    z-index: 2;
+}
+.second-s {
+    background-image: url('../paul-esch-laurent-YU-OA2TvQRQ-unsplash.jpg');
+    background-size: 100% auto;
+    background-position: 460px 90%;
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-color: rgb(156 156 158);
+}
+mark {
+    background-color: transparent !important;
+    color: #d87d4a;
+}
+.a {
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+@media (max-width: 992px) {
+    .last{
+        background-position: center top;
+        background-size: contain;
+        display: flex;
+        justify-content: center;
+    }
+    .hide {
+        top: 52px;
+    }
+    .last div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .last div span {
+        width: 100% !important;
+        font-weight: bold;
+        letter-spacing: 5px;
+    }
+    .list img {
+        width: 150px !important;
+        margin-top: -30px !important;
+    }
+    .szx {
+        display: flex !important;
+    }
+    .szx span {
+        display: none !important;
+    }
+    .szx img {
+        width: 260px !important;
+    }
+    .szx article p{
+        width: 100% !important;
+    }
+    .second-s {
+        background-position: 190px center;
+        background-size: auto 100%;
+    }
+    .clip {
+        height: 300px !important;
+        width: auto !important;
+    }
+    .s-c {
+        left: 10%;
+        width: 80% !important;
+    }
+    footer div ul li {
+        width: 100% !important;
+        display: flex !important;
+    }
+}
+@media (min-width: 2500px) {
+    .last {
+        background-position: center top !important;
+    }
+}

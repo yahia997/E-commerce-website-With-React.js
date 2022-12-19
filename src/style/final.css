@@ -1,0 +1,51 @@
+.add {
+    background-color: #d87d4a;
+}
+.new {
+    color: #d87d4a;
+}
+.line {
+    line-height: 28px;
+}
+.images {
+    height: 275px;
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+}
+.images div {
+    width: 700px;
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+    justify-content: center;
+}
+.o {
+    display: block !important;
+    width: 17px  !important;
+    height: 17px !important;
+    background-color: #d87d4a;
+    border-radius: 50% !important;
+    cursor: pointer;
+}
+.bordered {
+    border: black 2px solid !important;
+}
+.card-text {
+    overflow: hidden !important;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.aa {
+    height: 200px !important;
+    width: 200px !important;
+    overflow: hidden !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.aa img {
+    height: 100% !important;
+    width: auto !important;
+}
